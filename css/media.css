@@ -1,0 +1,550 @@
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+/* ===============hero-start======================= */
+          /* Background Circle */
+          .bg-circle {
+            width: 320px !important;
+            height: 320px !important;
+          
+          }
+
+          /* Main Image */
+          .main-img {
+            margin-left: -19px !important;
+            width: 350px !important;
+            height:380px !important;
+
+            /*important fixes */
+            margin: 0 auto;
+            display: block;
+
+            position: relative;
+            left: 51%;
+            transform: translateX(-50%);
+          }
+
+        .floating-card {
+            width: 240px !important;      
+            padding: 5px !important;
+            position: static !important;  
+            margin: 10px auto !important;  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .left-card,
+          .right-card {
+            left: auto !important;         
+            right: auto !important;         
+          }
+
+          .hero-h1 {
+            margin-top: 40px !important;
+            font-size: 25px !important;
+            text-align: center;
+          }
+
+          .hero-p {
+            margin: 30px 0 60px !important;
+            font-size: 20px !important;
+            font-weight: 400 !important;
+            text-align: center;
+          }
+
+          .hero-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .spicy-bubble {
+            display: none;
+            position: absolute !important;
+            padding: 5px 2px !important;
+          }
+/* ==========hero-end=========== */
+/* ========food-catagories-start======= */
+
+.food-1
+
+ {
+    margin: 0 auto;
+    margin-top:60px !important;
+    
+  
+  }
+  .popular-h1 {
+    font-size: 25px !important;
+}
+.Catagories {
+    padding-bottom: 100px !important;
+}
+
+/* ======food-catagories-end====== */
+
+/* ============food-menu-start========== */
+.food-menu{
+        padding-bottom: 150px;
+}
+.food-menu1 {
+        height: 503px;
+        max-width: 90% !important;  
+        margin: 40px auto !important;
+   
+}
+
+.menu-h1 {
+        text-align: center;
+        font-size: 25px !important;
+        line-height: 45px !important;
+}
+.menu-p {
+        text-align: center;
+        margin-bottom: 20px !important;
+}
+.menu-text {
+        margin-right: 0 !important;
+}
+.carousel-inner {
+    padding: 0 !important;
+}
+/* =======testmonial-start======== */
+
+.Testimonials {
+    padding-bottom: 60px !important;
+}
+
+/* LEFT SHAPE */
+.chef-wrapper {
+  max-width: 280px !important;
+  height: 200px !important; 
+}
+
+
+.chef-img {
+  max-width: 200px !important;
+}
+
+
+.test-p{
+       margin-bottom: 0 !important;
+       padding: 0 0 !important;
+       text-align: center;
+       font-size: 20px;
+       letter-spacing: 3.5px;
+       padding-right: 0 !important;
+}
+.test-h2{
+        padding: 0 0 !important;
+        text-align: center;
+        padding-right: 0 !important;
+        margin: 0 0 !important;
+        font-size:20px !important;
+        line-height:40px !important;
+}
+.testmonial-p{
+        margin: 0 !important; 
+        text-align: center;
+        padding: 0 0 !important;
+        font-size: 15px !important;
+        line-height: 20px;
+        padding-right: 0 !important;
+}
+.review-rating{
+  justify-content: center;
+}
+/* ===========story-start======== */
+
+
+.story{
+         padding-top: 50px !important;  
+}
+.story-h3{
+        text-align: center;
+        margin: 30px 0 30px !important;
+        font-size:25px !important;
+
+}
+.story-p{
+     text-align: center;
+     margin-bottom: 30px !important;     
+     font-size: 20px !important;
+     line-height: 40px;
+}
+/* ==========footer-end==== */
+.reserved1{
+  text-align: center;
+        margin-top: 25px;
+        font-size: 17px !important;
+        
+ }
+.footer-end{
+        padding-bottom: 30px !important;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* ===============hero-start======================= */
+          .floating-card {
+              width: 210px !important;
+          }
+          .hero-h1 {
+              margin-top: 50px !important;
+              font-size: 38px !important;
+              text-align: center;
+          }
+          .hero-p {
+              margin: 40px 0 50px !important;
+              font-size: 20px !important;
+              font-weight: 400 !important;
+              text-align: center;
+          }
+          .hero-button {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+/* ===============hero-end======================= */
+
+/* =================food-catagories-start=============== */
+.Catagories {
+    padding-bottom: 108px !important;
+}
+.food-1{
+    margin-top: 35px !important;
+    width: 240px !important;
+    height: 300px !important;
+}
+
+.popular-h1 {
+    font-size: 40px !important;
+}
+/* =================food-catagories-end=============== */
+
+/* ============food-menu-start========== */
+.food-menu{
+     padding-bottom: 150px;
+}
+.food-menu1 {
+    height: 503px;
+    max-width: 90% !important;  
+        margin: 40px auto !important;
+   
+}
+.menu-h1 {
+        text-align: center;
+      
+}
+.menu-p {
+        text-align: center;
+       ;
+}
+.menu-text {
+    margin-right: 20px !important;
+}
+/* =======testmonial-start======== */
+.Testimonials {
+    padding-bottom: 100px !important;
+}
+
+
+.test-p{
+        padding: 0 0 !important;
+       text-align: center;
+       font-size: 20px;
+       letter-spacing: 3.5px;
+       padding-right: 0 !important;
+}
+.test-h2{
+        padding: 0 0 !important;
+        text-align: center;
+        padding-right: 0 !important;
+        margin: 33px 0 19px;
+        font-size: 35px;
+        line-height:35px;
+}
+.testmonial-p{ 
+        text-align: center;
+        padding: 0 0 !important;
+        font-size: 19px;
+        line-height: 33px;
+        padding-right: 0 !important;
+}
+.review-rating{
+  justify-content: center;
+}
+/* ===========story-start======== */
+
+.story{
+         padding-top: 50px !important;  
+}
+.story-h3{
+        text-align: center;
+        margin: 30px 0 30px !important;
+        font-size: 30px !important;
+
+}
+.story-p{
+     text-align: center;
+     margin-bottom: 30px !important;     
+     font-size: 20px !important;
+     line-height: 40px;
+}
+/* ==========footer-end==== */
+.reserved1{
+  text-align: center;
+        margin-top: 25px;
+        font-size: 17px !important;
+        
+ }
+.footer-end{
+        padding-bottom: 30px !important;
+}
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* ===============hero-start======================= */
+                .floating-card {
+                    width: 300px !important;
+                }
+                .hero-h1 {
+                    margin-top: 50px !important;
+                    font-size: 38px !important;
+                    text-align: center;
+                    margin: 0 50px;
+                }
+                .hero-p {
+                    margin: 40px 0 50px !important;
+                    font-size: 20px !important;
+                    font-weight: 400 !important;
+                    text-align: center;
+                }
+                .hero-button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  }
+ /* ===============hero-end================ */
+
+ /* ==========food-catagories-start========== */
+
+.food-1{
+    
+    width:326px !important;
+    height: 326px !important;
+}
+
+/* =======food-catagories-end========== */
+
+/* =======testmonial-start======== */
+
+.Testimonials {
+    padding-bottom: 100px !important;
+}
+
+/* LEFT SHAPE */
+.chef-wrapper {
+  max-width: 280px !important;
+  height: 200px !important; 
+}
+
+
+.chef-img {
+  max-width: 200px !important;
+}
+
+
+.test-p{
+        padding: 0 80px;
+       text-align: center;
+       font-size: 20px;
+       letter-spacing: 3.5px;
+       padding-right: 30px !important;
+}
+.test-h2{
+        padding: 0 80px;
+        text-align: center;
+        padding-right: 30px !important;
+        margin: 33px 0 19px;
+        font-size: 40px;
+        line-height:35px;
+}
+.testmonial-p{ 
+        text-align: center;
+        padding: 0 80px;
+        font-size: 19px;
+        line-height: 33px;
+        padding-right: 30px !important;
+}
+.review-rating{
+  justify-content: center;
+}
+
+/* ===========story-start======== */
+
+.story{
+         padding-top: 50px !important;  
+}
+.story-h3{
+        text-align: center;
+        margin: 30px 0 30px !important;
+        font-size: 30px !important;
+
+}
+.story-p{
+     text-align: center;
+     margin-bottom: 30px !important;     
+     font-size: 20px !important;
+     line-height: 40px;
+}
+/* ===========story-start======== */
+
+.story{
+         padding-top: 50px !important;  
+}
+.story-h3{
+        text-align: center;
+        margin: 30px 0 30px !important;
+        font-size: 30px !important;
+
+}
+.story-p{
+     text-align: center;
+     margin-bottom: 30px !important;     
+     font-size: 20px !important;
+     line-height: 40px;
+}
+/* ===========footer-start========== */
+.container{
+  text-align: center;
+}
+
+/* =======footer-end==== */
+.reserved1{
+        margin-top: 25px;
+        font-size: 17px;
+        
+ }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+    /* ========hero-start======== */
+                .hero-h1 {
+                    
+                    font-size: 40px !important;
+                    font-weight: 600 !important;
+                }
+                .hero-p {
+                    margin: 30px 0 50px !important;
+                    font-size: 20px !important;
+                    font-weight: 500 !important;
+                }
+                .hero-watch-video {
+                    margin-left: 20px !important;
+                    font-size: 15px !important;
+                    
+                }
+
+                .main-img {
+                    
+                    width: 350px !important;
+                    height: 400px !important;
+                  
+                }
+                .bg-circle {
+                    width: 320px !important;
+                    height: 320px !important;
+                }
+                .floating-card {
+                    width: 190px !important;
+                    padding: 5px !important;
+                }
+/* ===============hero-end============== */
+
+
+/* ===========food-catagories-start=========== */
+
+.food-1{
+    
+    width: 220px !important;
+    height: 285px !important;
+}
+
+.menu-text {
+    margin-right: 20px !important;
+}
+/* ========food-catagories-end===== */
+
+/* =======testmonial-start======= */
+
+.test-p{
+        padding: 0 0 !important;
+       font-size: 20px;
+       letter-spacing: 3.5px;
+       padding-right: 0 !important;
+}
+.test-h2{
+        padding: 0 0 !important;
+        padding-right: 0 !important;
+        margin: 33px 0 19px;
+        font-size: 35px !important;
+        line-height:35px;
+}
+.testmonial-p{ 
+        padding: 0 0 !important;
+        font-size: 19px;
+        line-height: 33px;
+        padding-right: 0 !important;
+}
+/* ===========story-start======== */
+
+.story{
+         padding-top: 100px !important;  
+}
+.story-h3{
+        margin: 30px 0 30px !important;
+        font-size: 30px !important;
+
+}
+.story-p{
+     margin-bottom: 30px !important;     
+     font-size: 20px !important;
+     line-height: 40px;
+}
+}
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and ( max-width:1399.98px) { 
+
+  .food-1{
+    
+    width: 260px !important;
+    height: 260px !important;
+}
+/* ========food-catagories-end======== */
+
+/* =======testmonial-start======= */
+
+.test-p{
+        padding: 0 0 !important;
+       padding-right: 0 !important;
+}
+.test-h2{
+        padding: 0 0 !important;
+        padding-right: 40px !important;
+        font-size: 35px !important;
+
+}
+.testmonial-p{ 
+        padding: 0 0 !important;
+        padding-right: 0 !important;
+}
+}
+
+/* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
+
